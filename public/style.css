@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', Helvetica, sans-serif;
+    background: #222;
+    background-image: url('https://source.unsplash.com/1600x900/?city');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    background: #000000d0;
+    color: #ffffff;
+    padding: 5em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 900px;
+    margin: 2em;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+h1 > span {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fbabaf;
+    text-transform: capitalize;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.search-bar {
+    outline: none;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 26px;
+    background: #7c7c7c2b;
+    color: #ffffff;
+    width: 450px;
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-size: 16px;
+    transition: all ease-in-out .20s;
+    text-transform: capitalize;
+}
+
+.search-bar:focus {
+    background: #7c7c7c6b;
+    text-transform: capitalize;
+}
+
+button {
+    cursor: pointer;
+    margin: 0.8em;
+    border-radius: 50%;
+    border: none;
+    height: 52px;
+    width: 52px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: #ffffff;
+    font-size: 14px;
+    transition: all ease-in-out .20s;
+}
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+.summary {
+    margin-bottom: 60px;
+}
+
+.summary > br{
+    display: none;
+}
+
+.allData {
+    display: flex;
+    justify-content: space-around;
+}
+
+.data {
+    list-style: none;
+}
+
+.data > li {
+    margin-bottom: 8px;
+}
+
+.data > li:last-child {
+    margin-bottom: 0px;
+}
+
+.data > li span {
+    font-weight: bold;
+    color: #969aff;
+}
+
+/************MEDIA QUERY*************/
+
+@media(max-width: 700px){
+    .card {
+        padding: 2em;
+        font-size: 16px;
+        margin: 1.5em;
+    }
+    
+    h1 {
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    
+    h1 > span {
+        font-size: 30px;
+    }
+
+    .search-bar {
+        font-size: 14px;
+        width: 250px;
+    }
+
+    button {
+        font-size: 12px !important;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .summary, .data > li {
+        font-size: 14px;
+    }
+
+    .allData {
+        justify-content: space-between;
+    }
+}
