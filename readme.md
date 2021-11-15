@@ -1,4 +1,4 @@
-![WebApp](https://github.com/GabrieleFattorini/Life-Quality/blob/main/src/img/Mockup.png)
+![WebApp](https://github.com/GabrieleFattorini/Life-Quality/blob/main/src/img/Life-Quality.png)
 
 <br>
 
