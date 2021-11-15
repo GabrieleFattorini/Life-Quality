@@ -23,7 +23,7 @@ The web app is adapted for all devices, as can be seen in these mockups.
 <br>
 
 ![WebApp](https://github.com/GabrieleFattorini/Life-Quality/blob/main/src/img/Mockup.png)
-![WebApp](https://github.com/GabrieleFattorini/Life-Quality/blob/main/src/img/Mobile.png)
+
 
 <br>
 
