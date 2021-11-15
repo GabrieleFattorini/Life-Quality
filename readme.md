@@ -1,4 +1,4 @@
-![WebApp](https://github.com/GabrieleFattorini/Counter/blob/main/assets/img/preview.png)
+![WebApp](https://github.com/GabrieleFattorini/Life-Quality/blob/main/src/img/mockup.png)
 
 <br>
 
@@ -22,8 +22,7 @@ Here is a working live demo: https://fattorini-lifequality.web.app
 The web app is adapted for all devices, as can be seen in these mockups.
 <br>
 
-![WebApp](https://github.com/GabrieleFattorini/Counter/blob/main/assets/img/pc.png)
-![WebApp](https://github.com/GabrieleFattorini/Counter/blob/main/assets/img/mobile.png)
+![WebApp](https://github.com/GabrieleFattorini/Life-Quality/blob/main/src/img/mobile.png)
 
 <br>
 
